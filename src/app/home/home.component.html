@@ -1,0 +1,38 @@
+<div class="landing-page">
+  <section class="main-content">
+    <div class="text-content fade-in">
+      <h1 class="title">Calm.</h1>
+      <h2>Read out <br> of the box</h2>
+      <p>Read more, pay less</p>
+      <button class="cta-button" routerLink="/product">More Information</button>
+    </div>
+    <div class="image-content fade-in">
+      <img src="../../assets/images/logo.png" alt="Logo" />
+    </div>
+  </section>
+</div>
+
+<div class="start-reading-section">
+  <h1 class="fade-in">Start reading.</h1>
+  <div class="card-container">
+    <info-card
+      class="fade-in"
+      [num]="1"
+      [title]="'Find your perfect plan'"
+      [description]="'Choose a subscription that fits your needs.'"
+    ></info-card>
+    <info-card
+      class="fade-in"
+      [num]="2"
+      [title]="'Choose your preferences'"
+      [description]="'Pick the genres and types of books you love.'"
+    ></info-card>
+    <info-card
+      class="fade-in"
+      [num]="3"
+      [title]="'Receive your books'"
+      [description]="'Get curated books delivered to your doorstep.'"
+    ></info-card>
+  </div>
+  <button routerLink="/product" class="subscribe-button fade-in">Subscribe</button>
+</div>

@@ -1,0 +1,117 @@
+  @import url('https://fonts.googleapis.com/css2?family=Junge&display=swap');
+
+  .product-container {
+    background-image: url('../../assets/images/paper.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    padding: 20px;
+  }
+
+  .title-container {
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-family: "Junge", "cursive";
+    font-size: 5.5rem;
+    letter-spacing: 0.5rem;
+    font-weight: 200;
+    margin: 15px 0;
+  }
+
+  .card-container {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 300px;
+    max-width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .switch-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 20px;
+  }
+
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 20px;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: '';
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+
+  input:checked + .slider {
+    background-color: #4caf50;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(14px);
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1055px) {
+    .product-container {
+      height: auto;
+    }
+
+    .card-container {
+      gap: 30px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .product-container {
+      height: auto;
+    }
+
+    .card-container {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .card {
+      width: 90%;
+    }
+  }

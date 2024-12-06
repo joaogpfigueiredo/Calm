@@ -1,0 +1,70 @@
+.signin-container {
+    background-image: url('../../assets/images/paper.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    font-family: 'Georgia', serif;
+  }
+  
+  .signin-form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signin-form h1 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .signin-form input {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .signin-form button {
+    background-color: #fcefa6;
+    color: #3b3a3a;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .signin-form button:hover {
+    background-color: #f7d469;
+  }
+  
+  .signin-form .signup-link {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .signin-form .signup-link a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .signin-form .signup-link a:hover {
+    color: #0056b3;
+  }
+  

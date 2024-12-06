@@ -1,0 +1,124 @@
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    font-family: "Junge", sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-section {
+    flex: 1 1 200px;
+    padding: 10px;
+    min-width: 200px;
+  }
+  
+  .footer-logo {
+    font-size: 1.8rem;
+    margin-top: 16px;
+    margin-bottom: 10px;
+  }
+
+  .footer-section .aviso-legal {
+    text-align: justify;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #ddd;
+  }
+  
+  .social-media a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .social-media a:hover {
+    color: #ddd;
+  }
+  
+  .social-media i {
+    vertical-align: middle;
+  }
+  
+  
+  .newsletter-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .newsletter-form input[type="email"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    flex: 1;
+  }
+  
+  .newsletter-form button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter-form button:hover {
+    background-color: #555;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+  .footer-bottom p {
+    margin: 5px 0;
+  }
+  
+  .footer-bottom p a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .footer-bottom p a:hover {
+    color: #ddd;
+  }
+  

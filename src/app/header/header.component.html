@@ -1,0 +1,20 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<header class="header">
+  <div class="logo">
+    <a routerLink="">
+      <img src="assets/images/logo.png" alt="Logo" />
+      <span class="title">Calm.</span>
+    </a>
+  </div>
+  <div class="menu">
+    <nav class="nav-links" [ngClass]="{ 'show': isBurgerExpanded, 'hide': !isBurgerExpanded }">
+      <a routerLink="">Home</a>
+      <a routerLink="/product">Product</a>
+      <a routerLink="/signup">Signup</a>
+    </nav>
+    <div class="menu-icon">
+      <span class="material-icons" (click)="burgerExpand()">menu</span>
+    </div>
+  </div>
+</header>
