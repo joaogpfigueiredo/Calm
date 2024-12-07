@@ -1,0 +1,132 @@
+{
+    "Home": "Início",
+    "Product": "Produto",
+    "Signup": "Registar",
+    "Products": "Produtos",
+    "Read out of the box": "Lê fora da caixa",
+    "Read more, pay less": "Lê mais, paga menos",
+    "More Information": "Mais Informações",
+    "Start reading.": "Começa a ler.",
+    "Find your perfect plan": "Encontra o teu plano perfeito",
+    "Choose a subscription that fits your needs.": "Escolhe uma subscrição que se adeque às tuas necessidades.",
+    "Choose your preferences": "Escolhe as tuas preferências",
+    "Pick the genres and types of books you love.": "Escolhe os géneros e tipos de livros que gostas.",
+    "Receive your books": "Recebe os teus livros",
+    "Get curated books delivered to your doorstep.": "Recebe livros seleccionados à tua porta.",
+    "Subscribe": "Subscrever",
+    "Single Plan.": "Plano Único.",
+    "Single Plan": "Plano Único",
+    "Subscriptions.": "Subscrições.",
+    "Subscriptions": "Subscrições",
+    "Monthly": "Mensal",
+    "Quarterly": "Trimestral",
+    "Annually": "Anual",
+    "Big": "Grande",
+    
+    "Footer": {
+      "LegalNotice": "Este website foi realizado por alunos no âmbito de uma disciplina – Processos de Gestão e Inovação - do 3.º ano da licenciatura em Engenharia Informática da Faculdade de Ciências e Tecnologia da Universidade de Coimbra (FCTUC), pelo que a FCTUC não se responsabiliza pelo seu uso e conteúdos.",
+      "QuickLinks": "Links Rápidos",
+      "AboutUs": "Sobre Nós",
+      "PrivacyPolicy": "Política de Privacidade",
+      "TermsAndConditions": "Termos e Condições",
+      "CookiesPolicy": "Política de Cookies",
+      "ContactUs": "Contacta-nos",
+      "Email": "Email",
+      "Phone": "Telefone",
+      "Address": "Morada",
+      "FollowUs": "Segue-nos",
+      "Newsletter": "Subscreve a nossa Newsletter",
+      "EnterEmail": "Introduz o teu email",
+      "Subscribe": "Subscrever",
+      "AllRightsReserved": "Todos os direitos reservados.",
+      "TermsOfService": "Termos de Serviço"
+    },
+  
+    "PrivacyPolicy": {
+      "Title": "Política de Privacidade",
+      "Description": "A tua privacidade é importante para nós. Esta página explica como lidamos com as tuas informações.",
+      "Section1": {
+        "Title": "1. Introdução",
+        "Content": "Bem-vindo à Calm.! Valorizamos a tua confiança e priorizamos a segurança dos teus dados."
+      },
+      "Section2": {
+        "Title": "2. Informações que Recolhemos",
+        "Content": "Recolhemos dados pessoais como nome, email, morada e detalhes de pagamento para fornecer os nossos serviços."
+      },
+      "Section3": {
+        "Title": "3. Como Usamos as Tuas Informações",
+        "Content": "Usamos os teus dados para processar subscrições, entregar produtos e comunicar atualizações."
+      },
+      "Section4": {
+        "Title": "4. Partilha das Tuas Informações",
+        "Content": "Partilhamos dados apenas com prestadores de serviços necessários e cumprimos as obrigações legais."
+      },
+      "Section5": {
+        "Title": "5. Os Teus Direitos",
+        "Content": "Tens o direito de aceder, corrigir ou eliminar os teus dados a qualquer momento."
+      },
+      "Section6": {
+        "Title": "6. Contacta-nos",
+        "Content": "Se tiveres perguntas, entra em contacto connosco em suport@calmystery.pt."
+      },
+      "BackButton": "Voltar à Página Inicial"
+    },
+  
+    "Prod": {
+      "Subscribe": "Subscrever",
+      "SinglePlanTitle": "Plano Único.",
+      "SubscriptionsTitle": "Subscrições.",
+      "SinglePlan": "Plano Único",
+      "Subscriptions": "Subscrições",
+      "Monthly": "Mensal",
+      "Quarterly": "Trimestral",
+      "Annually": "Anual",
+      "Normal": "Normal",
+      "Big": "Grande",
+      "Family": "Familiar",
+      "MonthlyFeature1": "2 livros por mês",
+      "MonthlyFeature2": "Escolha de 1 tema de livros",
+      "MonthlyFeature3": "Livros Extra",
+      "MonthlyFeature4": "Edições Especiais",
+      "NormalFeature1": "Recebe 2 livros",
+      "NormalFeature2": "Escolha de 1 tema de livros",
+      "NormalFeature3": "Entrega Gratuita",
+      "NormalFeature4": "Acesso a um clube de leitura",
+      "QuarterlyFeature1": "2 livros por mês",
+      "QuarterlyFeature2": "Escolha de 4 temas de livros",
+      "QuarterlyFeature3": "Livros Extra",
+      "QuarterlyFeature4": "Edições Especiais",
+      "BigFeature1": "Recebe 4/5 livros",
+      "BigFeature2": "Escolha de 2 temas de livros",
+      "BigFeature3": "Entrega Gratuita",
+      "BigFeature4": "Acesso a um clube de leitura",
+      "AnnuallyFeature1": "2 livros por mês",
+      "AnnuallyFeature2": "Escolha de 12 temas de livros",
+      "AnnuallyFeature3": "Livros Extra",
+      "AnnuallyFeature4": "Edições Especiais",
+      "FamilyFeature1": "Recebe 9/10 livros",
+      "FamilyFeature2": "Escolha de 5 temas de livros",
+      "FamilyFeature3": "Entrega Gratuita",
+      "FamilyFeature4": "Acesso a um clube de leitura"
+    },
+    
+    "SignIn": {
+      "Title": "Entrar",
+      "EmailPlaceholder": "Email",
+      "PasswordPlaceholder": "Palavra-passe",
+      "Button": "Entrar",
+      "NoAccount": "Não tens uma conta?",
+      "SignUpLink": "Regista-te"
+    },
+  
+    "SignUp": {
+      "Title": "Regista-te",
+      "UsernamePlaceholder": "Nome de utilizador",
+      "EmailPlaceholder": "Email",
+      "PasswordPlaceholder": "Palavra-passe",
+      "Button": "Registar",
+      "AlreadyHaveAccount": "Já tens uma conta?",
+      "SignInLink": "Entrar"
+    }
+  }
+  

@@ -1,21 +1,28 @@
 <div class="product-container">
-  
     <div class="title-container">
-      <h1 class="title">{{ planType ? "Subscriptions." : "Single Plan." }}</h1>
+        <h1 class="title">{{ planType ? ('Prod.SubscriptionsTitle' | translate) : ('Prod.SinglePlanTitle' | translate) }}</h1>
     </div>
 
     <div class="switch-container">
         <label class="switch">
-          <input type="checkbox" (change)="togglePlanType()">
-          <span class="slider round"></span>
+            <input type="checkbox" (change)="togglePlanType()">
+            <span class="slider round"></span>
         </label>
-        <p>{{ planType ? 'Subscriptions' : 'Single Plan' }}</p>
-      </div>
-  
-    <div class="card-container">
-      <plan-card title="{{ planName[0].name }}" [features]="plan1"></plan-card>
-      <plan-card title="{{ planName[1].name }}" [features]="plan2"></plan-card>
-      <plan-card title="{{ planName[2].name }}" [features]="plan3"></plan-card>
+        <p>{{ planType ? ('Prod.Subscriptions' | translate) : ('Prod.SinglePlan' | translate) }}</p>
     </div>
-  </div>
-  
+
+    <div class="card-container">
+        <plan-card 
+            [title]="planName[0] | translate" 
+            [features]="plan1">
+        </plan-card>
+        <plan-card 
+            [title]="planName[1] | translate" 
+            [features]="plan2">
+        </plan-card>
+        <plan-card 
+            [title]="planName[2] | translate" 
+            [features]="plan3">
+        </plan-card>
+    </div>
+</div>

@@ -9,12 +9,20 @@
   </div>
   <div class="menu">
     <nav class="nav-links" [ngClass]="{ 'show': isBurgerExpanded, 'hide': !isBurgerExpanded }">
-      <a routerLink="">Home</a>
-      <a routerLink="/product">Product</a>
-      <a routerLink="/signup">Signup</a>
+      <a routerLink="">{{ 'Home' | translate }}</a>
+      <a routerLink="/product">{{ 'Product' | translate }}</a>
+      <a routerLink="/signup">{{ 'Signup' | translate }}</a>
     </nav>
-    <div class="menu-icon">
-      <span class="material-icons" (click)="burgerExpand()">menu</span>
+    <div class="menu-right">
+      <div class="menu-icon">
+        <span class="material-icons" (click)="burgerExpand()">menu</span>
+      </div>
+    </div>
+    <div class="language-selector">
+      <select (change)="changeLanguage($event)">
+        <option value="en">🇬🇧</option>
+        <option value="pt">🇵🇹</option>
+      </select>
     </div>
   </div>
 </header>

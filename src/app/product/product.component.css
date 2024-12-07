@@ -96,6 +96,10 @@
       height: auto;
     }
 
+    h1 {
+      font-size: 3.5rem;
+    }
+
     .card-container {
       gap: 30px;
     }
@@ -104,6 +108,10 @@
   @media screen and (max-width: 768px) {
     .product-container {
       height: auto;
+    }
+
+    h1 {
+      font-size: 2.5rem;
     }
 
     .card-container {

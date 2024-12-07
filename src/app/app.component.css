@@ -2,5 +2,12 @@
 ::ng-deep body {
     margin: 0;
     padding: 0;
-    
+}
+
+::ng-deep button {
+    color: #000;
+}
+
+::ng-deep a {
+    color: #000;
 }

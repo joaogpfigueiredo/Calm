@@ -7,8 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class PlanCardComponent {
 
-  @Input() title: string = 'Annually';
-  @Input() buttonText: string = 'Subscribe';
+  @Input() title: string = '';
   @Input() features: { name: string; available: boolean }[] = [];
 
 }

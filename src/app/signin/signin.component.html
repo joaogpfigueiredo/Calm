@@ -1,12 +1,12 @@
 <div class="signin-container">
-    <form class="signin-form">
-      <h1>Sign In</h1>
-      <input type="email" placeholder="Email" required>
-      <input type="password" placeholder="Password" required>
-      <button type="submit">Sign In</button>
-      <p class="signup-link">
-        Don't have account? <a href="/signup">Sign Up</a>
-      </p>
-    </form>
+  <form class="signin-form">
+    <h1>{{ 'SignIn.Title' | translate }}</h1>
+    <input type="email" placeholder="{{ 'SignIn.EmailPlaceholder' | translate }}" required>
+    <input type="password" placeholder="{{ 'SignIn.PasswordPlaceholder' | translate }}" required>
+    <button type="submit">{{ 'SignIn.Button' | translate }}</button>
+    <p class="signup-link">
+      {{ 'SignIn.NoAccount' | translate }} 
+      <a href="" routerLink="/signup">{{ 'SignIn.SignUpLink' | translate }}</a>
+    </p>
+  </form>
 </div>
-  

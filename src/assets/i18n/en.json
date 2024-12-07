@@ -1,0 +1,132 @@
+{
+  "Home": "Home",
+  "Product": "Product",
+  "Signup": "Signup",
+  "Products": "Products",
+  "Read out of the box": "Read out of the box",
+  "Read more, pay less": "Read more, pay less",
+  "More Information": "More Information",
+  "Start reading.": "Start reading.",
+  "Find your perfect plan": "Find your perfect plan",
+  "Choose a subscription that fits your needs.": "Choose a subscription that fits your needs.",
+  "Choose your preferences": "Choose your preferences",
+  "Pick the genres and types of books you love.": "Pick the genres and types of books you love.",
+  "Receive your books": "Receive your books.",
+  "Get curated books delivered to your doorstep.": "Get curated books delivered to your doorstep.",
+  "Subscribe": "Subscribe",
+  "Single Plan.": "Single Plan.",
+  "Single Plan": "Single Plan",
+  "Subscriptions.": "Subscriptions.",
+  "Subscriptions": "Subscriptions",
+  "Monthly": "Monthly",
+  "Quarterly": "Quarterly",
+  "Annually": "Annually",
+  "Big": "Big",
+
+  "Footer": {
+    "LegalNotice": "This website was created by students as part of a course – Management and Innovation Processes – during the 3rd year of the Computer Science Engineering program at the Faculty of Science and Technology, University of Coimbra (FCTUC), and FCTUC is not responsible for its use or content.",
+    "QuickLinks": "Quick Links",
+    "AboutUs": "About Us",
+    "PrivacyPolicy": "Privacy Policy",
+    "TermsAndConditions": "Terms & Conditions",
+    "CookiesPolicy": "Cookies Policy",
+    "ContactUs": "Contact Us",
+    "Email": "Email",
+    "Phone": "Phone",
+    "Address": "Address",
+    "FollowUs": "Follow Us",
+    "Newsletter": "Subscribe to our Newsletter",
+    "EnterEmail": "Enter your email",
+    "Subscribe": "Subscribe",
+    "AllRightsReserved": "All rights reserved.",
+    "TermsOfService": "Terms of Service"
+  },
+
+  "PrivacyPolicy": {
+    "Title": "Privacy Policy",
+    "Description": "Your privacy is important to us. This page explains how we handle your information.",
+    "Section1": {
+      "Title": "1. Introduction",
+      "Content": "Welcome to Calm.! We value your trust and prioritize your data security."
+    },
+    "Section2": {
+      "Title": "2. Information We Collect",
+      "Content": "We collect personal data such as name, email, address, and payment details to provide our services."
+    },
+    "Section3": {
+      "Title": "3. How We Use Your Information",
+      "Content": "We use your data to process subscriptions, deliver products, and communicate updates."
+    },
+    "Section4": {
+      "Title": "4. Sharing Your Information",
+      "Content": "We share data only with necessary service providers and comply with legal obligations."
+    },
+    "Section5": {
+      "Title": "5. Your Rights",
+      "Content": "You have the right to access, correct, or delete your data at any time."
+    },
+    "Section6": {
+      "Title": "6. Contact Us",
+      "Content": "If you have questions, contact us at suport@calmystery.pt."
+    },
+    "BackButton": "Back to Home"
+  },
+
+  "Prod": {
+    "Subscribe": "Subscribe",
+    "SinglePlanTitle": "Single Plan.",
+    "SubscriptionsTitle": "Subscriptions.",
+    "SinglePlan": "Single Plan",
+    "Subscriptions": "Subscriptions",
+    "Monthly": "Monthly",
+    "Quarterly": "Quarterly",
+    "Annually": "Annually",
+    "Normal": "Normal",
+    "Big": "Big",
+    "Family": "Family",
+    "MonthlyFeature1": "2 books per month",
+    "MonthlyFeature2": "Choose 1 book genre",
+    "MonthlyFeature3": "Extra books",
+    "MonthlyFeature4": "Special editions",
+    "NormalFeature1": "Receive 2 books",
+    "NormalFeature2": "Choose 1 book genre",
+    "NormalFeature3": "Free delivery",
+    "NormalFeature4": "Access to a book club",
+    "QuarterlyFeature1": "2 books per month",
+    "QuarterlyFeature2": "Choose 4 book genres",
+    "QuarterlyFeature3": "Extra books",
+    "QuarterlyFeature4": "Special editions",
+    "BigFeature1": "Receive 4/5 books",
+    "BigFeature2": "Choose 2 book genres",
+    "BigFeature3": "Free delivery",
+    "BigFeature4": "Access to a book club",
+    "AnnuallyFeature1": "2 books per month",
+    "AnnuallyFeature2": "Choose 12 book genres",
+    "AnnuallyFeature3": "Extra books",
+    "AnnuallyFeature4": "Special editions",
+    "FamilyFeature1": "Receive 9/10 books",
+    "FamilyFeature2": "Choose 5 book genres",
+    "FamilyFeature3": "Free delivery",
+    "FamilyFeature4": "Access to a book club"
+  },
+
+  "SignIn": {
+    "Title": "Sign In",
+    "EmailPlaceholder": "Email",
+    "PasswordPlaceholder": "Password",
+    "Button": "Sign In",
+    "NoAccount": "Don't have an account?",
+    "SignUpLink": "Sign Up"
+  },
+
+  "SignUp": {
+    "Title": "Sign Up",
+    "UsernamePlaceholder": "Username",
+    "EmailPlaceholder": "Email",
+    "PasswordPlaceholder": "Password",
+    "Button": "Sign Up",
+    "AlreadyHaveAccount": "Already have an account?",
+    "SignInLink": "Sign In"
+  }
+
+}

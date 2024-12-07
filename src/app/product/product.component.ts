@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-product',
@@ -16,8 +17,14 @@ export class ProductComponent implements OnInit {
   public plan2: any[] = [];
   public plan3: any[] = [];
 
+  constructor(private translate: TranslateService) {}
+
   ngOnInit() {
     this.updatePlans();
+
+    this.translate.onLangChange.subscribe(() => {
+      this.updatePlans();
+    });
   }
 
   togglePlanType() {
@@ -27,30 +34,30 @@ export class ProductComponent implements OnInit {
 
   private updatePlans() {
     this.planName = [
-      { name: this.planType ? 'Monthly' : 'Normal' },
-      { name: this.planType ? 'Quarterly' : 'Big' },
-      { name: this.planType ? 'Annualy' : 'Familiar' }
+      this.translate.instant(this.planType ? 'Prod.Monthly' : 'Prod.Normal'),
+      this.translate.instant(this.planType ? 'Prod.Quarterly' : 'Prod.Big'),
+      this.translate.instant(this.planType ? 'Prod.Annually' : 'Prod.Family')
     ];
 
     this.features1 = [
-      this.planType ? '2 livros por mês' : 'Recebe 2 livros',
-      this.planType ? 'Escolha de 1 tema de livros' : 'Escolha de 1 tema de livros',
-      this.planType ? 'Livros Extra' : 'Entrega Gratuita',
-      this.planType ? 'Edições Especiais' : 'Acesso a um clube de leitura'
+      this.translate.instant(this.planType ? 'Prod.MonthlyFeature1' : 'Prod.NormalFeature1'),
+      this.translate.instant(this.planType ? 'Prod.MonthlyFeature2' : 'Prod.NormalFeature2'),
+      this.translate.instant(this.planType ? 'Prod.MonthlyFeature3' : 'Prod.NormalFeature3'),
+      this.translate.instant(this.planType ? 'Prod.MonthlyFeature4' : 'Prod.NormalFeature4')
     ];
 
     this.features2 = [
-      this.planType ? '2 livros por mês' : 'Recebe 4/5 livros',
-      this.planType ? 'Escolha de 4 tema de livros' : 'Escolha de 2 temas de livros',
-      this.planType ? 'Livros Extra' : 'Entrega Gratuita',
-      this.planType ? 'Edições Especiais' : 'Acesso a um clube de leitura'
+      this.translate.instant(this.planType ? 'Prod.QuarterlyFeature1' : 'Prod.BigFeature1'),
+      this.translate.instant(this.planType ? 'Prod.QuarterlyFeature2' : 'Prod.BigFeature2'),
+      this.translate.instant(this.planType ? 'Prod.QuarterlyFeature3' : 'Prod.BigFeature3'),
+      this.translate.instant(this.planType ? 'Prod.QuarterlyFeature4' : 'Prod.BigFeature4')
     ];
 
     this.features3 = [
-      this.planType ? '2 livros por mês' : 'Recebe 9/10 livros',
-      this.planType ? 'Escolha de 12 tema de livros' : 'Escolha de 5 temas de livros',
-      this.planType ? 'Livros Extra' : 'Entrega Gratuita',
-      this.planType ? 'Edições Especiais' : 'Acesso a um clube de leitura'
+      this.translate.instant(this.planType ? 'Prod.AnnuallyFeature1' : 'Prod.FamilyFeature1'),
+      this.translate.instant(this.planType ? 'Prod.AnnuallyFeature2' : 'Prod.FamilyFeature2'),
+      this.translate.instant(this.planType ? 'Prod.AnnuallyFeature3' : 'Prod.FamilyFeature3'),
+      this.translate.instant(this.planType ? 'Prod.AnnuallyFeature4' : 'Prod.FamilyFeature4')
     ];
 
     this.plan1 = this.features1.map((feature, index) => ({ name: feature, available: index < 2 }));

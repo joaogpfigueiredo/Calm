@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-header',
@@ -7,28 +8,20 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
-  public isBurgerExpanded: boolean = false;
+  public isBurgerExpanded: boolean = true;
 
-  ngOnInit() {
-    if (typeof window !== 'undefined') {
-      this.checkScreenSize();
-      window.addEventListener('resize', () => this.checkScreenSize());
-    }
-  } 
-
-  checkScreenSize(): void {
-    const screenWidth = window.innerWidth;
-    if (screenWidth < 768) {
-      this.isBurgerExpanded = false;
-    } else {
-      this.isBurgerExpanded = true;
-    }
-  }
+  constructor(private translateService: TranslateService) { this.translateService.use("en"); }
 
   burgerExpand() {
 
     this.isBurgerExpanded = !this.isBurgerExpanded;
 
+  }
+
+  changeLanguage(event: Event) {
+    const language = (event.target as HTMLSelectElement).value;
+    this.translateService.use(language);
+    debugger
   }
 
 }
