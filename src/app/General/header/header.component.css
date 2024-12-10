@@ -88,6 +88,11 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .logo .title {
+    display: none;
+  }
+
   .nav-links a {
     font-size: 1em;
   }

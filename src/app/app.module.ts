@@ -6,15 +6,18 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PlanCardComponent } from './plan-card/plan-card.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { SignupComponent } from './signup/signup.component';
-import { SigninComponent } from './signin/signin.component';
-import { HomeComponent } from './home/home.component';
-import { ProductComponent } from './product/product.component';
-import { InfoCardComponent } from './info-card/info-card.component';
-import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { PlanCardComponent } from './reusable-components/plan-card/plan-card.component';
+import { HeaderComponent } from './General/header/header.component';
+import { FooterComponent } from './General/footer/footer.component';
+import { SignupComponent } from './General/signup/signup.component';
+import { SigninComponent } from './General/signin/signin.component';
+import { HomeComponent } from './General/home/home.component';
+import { ProductComponent } from './General/product/product.component';
+import { InfoCardComponent } from './reusable-components/info-card/info-card.component';
+import { PrivacyPolicyComponent } from './Policy/privacy-policy/privacy-policy.component';
+import { CookiePolicyComponent } from './Policy/cookie-policy/cookie-policy.component';
+import { TermsAndConditionsComponent } from './Policy/terms-and-conditions/terms-and-conditions.component';
+import { PointsComponent } from './General/points/points.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -31,7 +34,10 @@ export function HttpLoaderFactory(http: HttpClient) {
     HomeComponent,
     ProductComponent,
     InfoCardComponent,
-    PrivacyPolicyComponent
+    PrivacyPolicyComponent,
+    CookiePolicyComponent,
+    TermsAndConditionsComponent,
+    PointsComponent
   ],
   imports: [
     BrowserModule,

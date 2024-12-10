@@ -5,7 +5,8 @@
   "Products": "Products",
   "Read out of the box": "Read out of the box",
   "Read more, pay less": "Read more, pay less",
-  "More Information": "More Information",
+  "Get Books": "Get Books",
+  "Sell Books": "Sell Books",
   "Start reading.": "Start reading.",
   "Find your perfect plan": "Find your perfect plan",
   "Choose a subscription that fits your needs.": "Choose a subscription that fits your needs.",
@@ -107,7 +108,22 @@
     "FamilyFeature1": "Receive 9/10 books",
     "FamilyFeature2": "Choose 5 book genres",
     "FamilyFeature3": "Free delivery",
-    "FamilyFeature4": "Access to a book club"
+    "FamilyFeature4": "Access to a book club",
+    "EarnPoints": "How to Earn Points"
+  },
+
+  "Exchange": {
+    "Title": "Trade your books for points!",
+    "Steps": {
+      "SendBooks": "Send us your books.",
+      "Evaluate": "We evaluate them.",
+      "TransferPoints": "We transfer you the points!"
+    },
+    "PointsGuide": {
+      "Excellent": "In excellent condition: <br> 7.5 points",
+      "Good": "In good condition: <br> 6 points",
+      "Damaged": "Damaged: <br> 3 points"
+    }
   },
 
   "SignIn": {
@@ -127,6 +143,58 @@
     "Button": "Sign Up",
     "AlreadyHaveAccount": "Already have an account?",
     "SignInLink": "Sign In"
-  }
+  },
+
+  "CookiePolicy": {
+        "Title": "Cookie Policy",
+        "Description": "Learn how we use cookies to enhance your experience and ensure the proper functioning of the website.",
+        "Section1": {
+            "Title": "What are Cookies?",
+            "Content": "Cookies are small files stored on your device to improve functionality and analyze traffic."
+        },
+        "Section2": {
+            "Title": "How We Use Cookies",
+            "Content": "We use cookies to personalize your experience, analyze site usage, and provide recommendations."
+        },
+        "Section3": {
+            "Title": "Types of Cookies",
+            "Content": "We use essential, functional, performance, and advertising cookies for various purposes."
+        },
+        "Section4": {
+            "Title": "Managing Cookies",
+            "Content": "You can manage or disable cookies through your browser settings."
+        },
+        "Section5": {
+            "Title": "Third-Party Cookies",
+            "Content": "Some cookies are provided by third-party services, such as Google Analytics, for analysis and advertising."
+        },
+        "BackButton": "Back to Home"
+    },
+
+    "TermsConditions": {
+        "Title": "Terms and Conditions",
+        "Description": "Please read the terms and conditions before using our book mystery box services.",
+        "Section1": {
+            "Title": "Services Provided",
+            "Content": "We offer mystery book boxes with various subscription plans tailored to your preferences."
+        },
+        "Section2": {
+            "Title": "User Responsibilities",
+            "Content": "Users are responsible for providing accurate information and keeping payment details up to date."
+        },
+        "Section3": {
+            "Title": "Payment Policy",
+            "Content": "Payments are processed at the beginning of each subscription cycle and are non-refundable."
+        },
+        "Section4": {
+            "Title": "Cancellation Policy",
+            "Content": "You can cancel at any time, but refunds are not available for the current month."
+        },
+        "Section5": {
+            "Title": "Intellectual Property Rights",
+            "Content": "All website content, including text and images, is protected by copyright."
+        },
+        "BackButton": "Back to Home"
+    }
 
 }

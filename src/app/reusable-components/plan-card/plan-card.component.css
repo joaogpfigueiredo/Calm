@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Junge&display=swap');
+
 @keyframes uncrumple {
   0% {
     transform: scale(0.5) rotate(-10deg);
@@ -15,14 +17,20 @@
 
 .card {
   width: 250px;
+  
   background-color: #fff;
+
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
   display: flex;
   flex-direction: column;
   align-items: center;
+
   padding: 20px;
-  font-family: Arial, sans-serif;
+
+  font-family: "Arial", cursive;
+
   animation: uncrumple 0.8s ease-out;
 }
 

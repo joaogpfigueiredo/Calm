@@ -1,0 +1,27 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<div class="exchange-container">
+    <h1>{{ 'Exchange.Title' | translate }}</h1>
+    <div class="steps">
+      <div class="step">
+        <p>{{ 'Exchange.Steps.SendBooks' | translate }}</p>
+        <span class="material-icons">local_shipping</span>
+      </div>
+      <div class="arrow">→</div>
+      <div class="step">
+        <p>{{ 'Exchange.Steps.Evaluate' | translate }}</p>
+        <span class="material-icons">search</span>
+      </div>
+      <div class="arrow">→</div>
+      <div class="step">
+        <p>{{ 'Exchange.Steps.TransferPoints' | translate }}</p>
+        <span class="material-icons">handshake</span>
+      </div>
+    </div>
+    <div class="points-guide">
+      <p [innerHTML]="'Exchange.PointsGuide.Excellent' | translate"></p>
+      <p [innerHTML]="'Exchange.PointsGuide.Good' | translate"></p>
+      <p [innerHTML]="'Exchange.PointsGuide.Damaged' | translate"></p>
+    </div>
+  </div>
+  

@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { ProductComponent } from './product/product.component';
-import { SignupComponent } from './signup/signup.component';
-import { SigninComponent } from './signin/signin.component';
-import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { HomeComponent } from './General/home/home.component';
+import { ProductComponent } from './General/product/product.component';
+import { SignupComponent } from './General/signup/signup.component';
+import { SigninComponent } from './General/signin/signin.component';
+import { PrivacyPolicyComponent } from './Policy/privacy-policy/privacy-policy.component';
+import { CookiePolicyComponent } from './Policy/cookie-policy/cookie-policy.component';
+import { TermsAndConditionsComponent } from './Policy/terms-and-conditions/terms-and-conditions.component';
+import { PointsComponent } from './General/points/points.component';
 
 const routes: Routes = [
   {
@@ -26,6 +29,18 @@ const routes: Routes = [
   {
     path: 'privacy-policy',
     component: PrivacyPolicyComponent
+  },
+  {
+    path: 'cookie-policy',
+    component: CookiePolicyComponent
+  },
+  {
+    path: 'terms-and-conditions',
+    component: TermsAndConditionsComponent
+  },
+  {
+    path: 'earnpoints',
+    component: PointsComponent
   }
 ];
 

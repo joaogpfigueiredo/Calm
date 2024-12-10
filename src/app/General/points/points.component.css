@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Junge&display=swap');
+
+.exchange-container {
+    background-image: url('../../../assets/images/paper.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    height: 95vh;
+
+    padding: 20px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+  
+    text-align: center;
+    font-family: 'Junge', cursive;
+  
+    color: #000;
+}
+
+h1 {
+    font-family: "Junge", "cursive";
+    font-size: 4.5rem;
+    letter-spacing: 0.5rem;
+    font-weight: 200;
+    margin: 15px 0;
+}
+
+.steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.step {
+  text-align: center;
+  max-width: 300px;
+}
+
+.step p {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.step span {
+  font-size: 6rem;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.arrow {
+  font-size: 4rem;
+  margin: 0 10px;
+}
+
+.points-guide {
+    background-color: #FFEB96;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+}
+
+.points-guide p {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+@media screen and (max-width: 768px) {
+
+    h1 {
+        font-size: 1rem;
+
+        letter-spacing: 0.2rem;
+    }
+
+    .step p {
+        font-size: 0.8rem;
+    }
+
+    .step span {
+        font-size: 4rem;
+    }
+
+    .arrow {
+        font-size: 1.5rem;
+    }
+
+    .points-guide {
+        width: 200px;
+        height: auto;
+        padding: 15px;
+    }
+
+    .points-guide p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .step p {
+        font-size: 1rem;
+    }
+
+    .step span {
+        font-size: 5rem;
+    }
+
+    .arrow {
+        font-size: 3rem;
+    }
+
+    .points-guide {
+        width: 220px;
+        height: 220px;
+    }
+
+    .points-guide p {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .step p {
+        font-size: 1.2rem;
+    }
+
+    .step span {
+        font-size: 6rem;
+    }
+
+    .arrow {
+        font-size: 4rem;
+    }
+
+    .points-guide {
+        width: 250px;
+        height: 250px;
+    }
+
+    .points-guide p {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    .exchange-container {
+        height: auto;
+    }
+}

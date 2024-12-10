@@ -11,13 +11,13 @@
       <div class="footer-section">
         <h3>{{ 'Footer.QuickLinks' | translate }}</h3>
         <ul>
-          <li><a routerLink="/home">{{ 'Home' | translate }}</a></li>
+          <li><a routerLink="">{{ 'Home' | translate }}</a></li>
           <li><a routerLink="/product">{{ 'Products' | translate }}</a></li>
-          <li><a href="#">{{ 'Footer.AboutUs' | translate }}</a></li>
+          <li><a routerLink="">{{ 'Footer.AboutUs' | translate }}</a></li>
           <br>
           <li><a routerLink="/privacy-policy">{{ 'Footer.PrivacyPolicy' | translate }}</a></li>
-          <li><a href="#">{{ 'Footer.TermsAndConditions' | translate }}</a></li>
-          <li><a href="#">{{ 'Footer.CookiesPolicy' | translate }}</a></li>
+          <li><a routerLink="/terms-and-conditions">{{ 'Footer.TermsAndConditions' | translate }}</a></li>
+          <li><a routerLink="/cookie-policy">{{ 'Footer.CookiesPolicy' | translate }}</a></li>
         </ul>
       </div>
 
@@ -58,6 +58,6 @@
   
     <div class="footer-bottom">
       <p>&copy; 2024 Calm. {{ 'Footer.AllRightsReserved' | translate }}</p>
-      <p>{{ 'Footer.TermsOfService' | translate }} | <a routerLink="/privacy-policy">{{ 'Footer.PrivacyPolicy' | translate }}</a></p>
+      <p><a routerLink="/terms-and-conditions">{{ 'Footer.TermsOfService' | translate }}</a> | <a routerLink="/privacy-policy">{{ 'Footer.PrivacyPolicy' | translate }}</a></p>
     </div>
   </footer>

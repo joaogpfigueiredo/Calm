@@ -5,7 +5,8 @@
     "Products": "Produtos",
     "Read out of the box": "Lê fora da caixa",
     "Read more, pay less": "Lê mais, paga menos",
-    "More Information": "Mais Informações",
+    "Get Books": "Adquire Livros",
+    "Sell Books": "Vende Livros",
     "Start reading.": "Começa a ler.",
     "Find your perfect plan": "Encontra o teu plano perfeito",
     "Choose a subscription that fits your needs.": "Escolhe uma subscrição que se adeque às tuas necessidades.",
@@ -107,7 +108,22 @@
       "FamilyFeature1": "Recebe 9/10 livros",
       "FamilyFeature2": "Escolha de 5 temas de livros",
       "FamilyFeature3": "Entrega Gratuita",
-      "FamilyFeature4": "Acesso a um clube de leitura"
+      "FamilyFeature4": "Acesso a um clube de leitura",
+      "EarnPoints": "Como Ganhar Pontos"
+    },
+
+    "Exchange": {
+      "Title": "Troca os teus livros por pontos!",
+      "Steps": {
+        "SendBooks": "Envia-nos os livros.",
+        "Evaluate": "Nós avaliamos.",
+        "TransferPoints": "Transferimos-te os pontos!"
+      },
+      "PointsGuide": {
+        "Excellent": "Em excelente estado: <br> 7.5 pontos",
+        "Good": "Em bom estado: <br> 6 pontos",
+        "Damaged": "Danificado: <br> 3 pontos"
+      }
     },
     
     "SignIn": {
@@ -127,6 +143,59 @@
       "Button": "Registar",
       "AlreadyHaveAccount": "Já tens uma conta?",
       "SignInLink": "Entrar"
+    },
+
+    "CookiePolicy": {
+        "Title": "Política de Cookies",
+        "Description": "Saiba como utilizamos cookies para melhorar a sua experiência e garantir o funcionamento adequado do site.",
+        "Section1": {
+            "Title": "O que são Cookies?",
+            "Content": "Os cookies são pequenos ficheiros de texto armazenados no seu dispositivo que ajudam a melhorar funcionalidades e a analisar o tráfego."
+        },
+        "Section2": {
+            "Title": "Como Utilizamos Cookies",
+            "Content": "Utilizamos cookies para personalizar a sua experiência, analisar o uso do site e oferecer recomendações relevantes."
+        },
+        "Section3": {
+            "Title": "Tipos de Cookies",
+            "Content": "Usamos cookies essenciais, funcionais, de desempenho e de publicidade, cada um com finalidades específicas."
+        },
+        "Section4": {
+            "Title": "Gestão de Cookies",
+            "Content": "Pode gerir ou desativar cookies a qualquer momento através das definições do seu navegador."
+        },
+        "Section5": {
+            "Title": "Cookies de Terceiros",
+            "Content": "Alguns cookies são fornecidos por serviços de terceiros, como o Google Analytics, para fins de análise e publicidade."
+        },
+        "BackButton": "Voltar ao Início"
+    },
+
+    "TermsConditions": {
+        "Title": "Termos e Condições",
+        "Description": "Leia atentamente os termos e condições antes de utilizar os nossos serviços de caixas misteriosas de livros.",
+        "Section1": {
+            "Title": "Serviços Prestados",
+            "Content": "Oferecemos caixas misteriosas de livros com diferentes planos de subscrição adaptados aos seus gostos."
+        },
+        "Section2": {
+            "Title": "Responsabilidades do Utilizador",
+            "Content": "Os utilizadores são responsáveis por fornecer informações corretas e manter os dados de pagamento atualizados."
+        },
+        "Section3": {
+            "Title": "Política de Pagamentos",
+            "Content": "Os pagamentos são processados no início de cada ciclo de subscrição e não são reembolsáveis."
+        },
+        "Section4": {
+            "Title": "Política de Cancelamento",
+            "Content": "Pode cancelar a sua subscrição a qualquer momento, no entanto, não serão feitos reembolsos para o mês em curso."
+        },
+        "Section5": {
+            "Title": "Direitos de Propriedade Intelectual",
+            "Content": "Todo o conteúdo do site, incluindo textos e imagens, está protegido por direitos de autor."
+        },
+        "BackButton": "Voltar ao Início"
     }
+
   }
   
