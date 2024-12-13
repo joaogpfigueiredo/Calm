@@ -2,27 +2,29 @@
     "Home": "Início",
     "Product": "Produto",
     "Signup": "Registar",
+
     "Products": "Produtos",
+
     "Read out of the box": "Lê fora da caixa",
     "Read more, pay less": "Lê mais, paga menos",
+
     "Get Books": "Adquire Livros",
     "Sell Books": "Vende Livros",
+
     "Start reading.": "Começa a ler.",
+
     "Find your perfect plan": "Encontra o teu plano perfeito",
     "Choose a subscription that fits your needs.": "Escolhe uma subscrição que se adeque às tuas necessidades.",
+
     "Choose your preferences": "Escolhe as tuas preferências",
-    "Pick the genres and types of books you love.": "Escolhe os géneros e tipos de livros que gostas.",
+    "Pick the genres and types of books you love.": "Escolhe os géneros e tipos de livros que gostas ou deixa isso para nós.",
+    
     "Receive your books": "Recebe os teus livros",
-    "Get curated books delivered to your doorstep.": "Recebe livros seleccionados à tua porta.",
+    "Get curated books delivered to your doorstep.": "Tem livros entregues à tua porta.",
+
     "Subscribe": "Subscrever",
-    "Single Plan.": "Plano Único.",
-    "Single Plan": "Plano Único",
-    "Subscriptions.": "Subscrições.",
-    "Subscriptions": "Subscrições",
-    "Monthly": "Mensal",
-    "Quarterly": "Trimestral",
-    "Annually": "Anual",
-    "Big": "Grande",
+
+    "EarnPoints": "Como Ganhar Pontos",
     
     "Footer": {
       "LegalNotice": "Este website foi realizado por alunos no âmbito de uma disciplina – Processos de Gestão e Inovação - do 3.º ano da licenciatura em Engenharia Informática da Faculdade de Ciências e Tecnologia da Universidade de Coimbra (FCTUC), pelo que a FCTUC não se responsabiliza pelo seu uso e conteúdos.",
@@ -75,41 +77,49 @@
   
     "Prod": {
       "Subscribe": "Subscrever",
-      "SinglePlanTitle": "Plano Único.",
+      "SinglePlanTitle": "Caixa Única.",
       "SubscriptionsTitle": "Subscrições.",
-      "SinglePlan": "Plano Único",
+
+      "SingleBox": "Caixa Única",
       "Subscriptions": "Subscrições",
-      "Monthly": "Mensal",
+
       "Quarterly": "Trimestral",
+      "SemiAnnual": "Semestral",
       "Annually": "Anual",
+
       "Normal": "Normal",
       "Big": "Grande",
       "Family": "Familiar",
-      "MonthlyFeature1": "2 livros por mês",
-      "MonthlyFeature2": "Escolha de 1 tema de livros",
-      "MonthlyFeature3": "Livros Extra",
-      "MonthlyFeature4": "Edições Especiais",
-      "NormalFeature1": "Recebe 2 livros",
-      "NormalFeature2": "Escolha de 1 tema de livros",
-      "NormalFeature3": "Entrega Gratuita",
-      "NormalFeature4": "Acesso a um clube de leitura",
-      "QuarterlyFeature1": "2 livros por mês",
-      "QuarterlyFeature2": "Escolha de 4 temas de livros",
+
+      "QuarterlyFeature1": "Escolhe a tua caixa",
+      "QuarterlyFeature2": "Escolhe os temas dos livros",
       "QuarterlyFeature3": "Livros Extra",
       "QuarterlyFeature4": "Edições Especiais",
+
+      "NormalFeature1": "Recebe 2 livros",
+      "NormalFeature2": "Escolhe os temas dos livros",
+      "NormalFeature3": "Entrega Gratuita",
+      "NormalFeature4": "Acesso a um clube de leitura",
+
+      "SemiAnnualFeature1": "Escolhe a tua caixa",
+      "SemiAnnualFeature2": "Escolhe os temas dos livros",
+      "SemiAnnualFeature3": "Livros Extra",
+      "SemiAnnualFeature4": "Edições Especiais",
+
       "BigFeature1": "Recebe 4/5 livros",
-      "BigFeature2": "Escolha de 2 temas de livros",
+      "BigFeature2": "Escolhe os temas dos livros",
       "BigFeature3": "Entrega Gratuita",
       "BigFeature4": "Acesso a um clube de leitura",
-      "AnnuallyFeature1": "2 livros por mês",
-      "AnnuallyFeature2": "Escolha de 12 temas de livros",
+
+      "AnnuallyFeature1": "Escolhe a tua caixa",
+      "AnnuallyFeature2": "Escolhe os temas dos livros",
       "AnnuallyFeature3": "Livros Extra",
       "AnnuallyFeature4": "Edições Especiais",
+
       "FamilyFeature1": "Recebe 9/10 livros",
-      "FamilyFeature2": "Escolha de 5 temas de livros",
+      "FamilyFeature2": "Escolhe os temas dos livros",
       "FamilyFeature3": "Entrega Gratuita",
-      "FamilyFeature4": "Acesso a um clube de leitura",
-      "EarnPoints": "Como Ganhar Pontos"
+      "FamilyFeature4": "Acesso a um clube de leitura"
     },
 
     "Exchange": {
@@ -119,11 +129,7 @@
         "Evaluate": "Nós avaliamos.",
         "TransferPoints": "Transferimos-te os pontos!"
       },
-      "PointsGuide": {
-        "Excellent": "Em excelente estado: <br> 7.5 pontos",
-        "Good": "Em bom estado: <br> 6 pontos",
-        "Damaged": "Danificado: <br> 3 pontos"
-      }
+      "RedeemYourPoints": "Resgata os teus pontos"
     },
     
     "SignIn": {
@@ -195,7 +201,19 @@
             "Content": "Todo o conteúdo do site, incluindo textos e imagens, está protegido por direitos de autor."
         },
         "BackButton": "Voltar ao Início"
+    },
+
+    "PointSystem": {
+      "PointSystem.": "Sistema de Pontos.",
+      "EarnPoints.": "Ganhar Pontos.",
+      "FirstDesc": "Venda os seus livros antigos e ganhe pontos.",
+
+      "RedeemPoints.": "Resgatar Pontos.",
+      "SecondDesc": "Utilize os seus pontos para obter descontos na sua próxima compra.",
+
+      "GetBooks.": "Obter Livros.",
+      "ThirdDesc": "Obtenha a sua caixa misteriosa por um preço inferior."
     }
 
-  }
+}
   

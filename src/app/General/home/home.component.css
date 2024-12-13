@@ -77,7 +77,10 @@
 }
 
 .start-reading-section {
-  background-image: linear-gradient(to top, #F9E195 10%, #FEFEEA 90%);
+  
+  background-image: url('../../../assets/images/book.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 
   display: flex;
   flex-direction: column;
@@ -94,6 +97,8 @@
 }
 
 .start-reading-section h1 {
+  color: #fff;
+
   font-size: 5.5rem;
   letter-spacing: 0.5rem;
 
@@ -111,12 +116,12 @@
 }
 
 .subscribe-button {
-  background-color: #ffffff30;
+  background-color: #f2dd87;
   
   border: none;
   border-radius: 15px;
 
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.65);
 
   width: 150px;
 
@@ -131,7 +136,113 @@
 }
 
 .subscribe-button:hover {
+  background-color: #e2cd77;
+}
+
+.points-info {
+  background-image: linear-gradient(to top, #F9E195 10%, #FEFEEA 90%);
+  height: auto;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Junge', cursive;
+  color: #000;
+  gap: 75px;
+}
+
+.points-info h1 {
+  font-size: 5.5rem;
+  letter-spacing: 0.5rem;
+  margin: 15px 0;
+  font-weight: 200;
+}
+
+.timeline {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 70px;
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 40px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 4px;
   background-color: #f2dd87;
+  z-index: 0;
+  transform: translateY(-50%);
+}
+
+.timeline-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  z-index: 1;
+  gap: 50px;
+}
+
+.timeline-item-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.timeline-item-header .circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f2dd87;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.timeline-item-header h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.timeline-item p {
+  font-size: 1rem;
+  color: #555;
+  max-width: 200px;
+  margin: 0;
+}
+
+.points-info-button {
+  background-color: #f2dd87;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  padding: 10px 20px;
+  margin-top: 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.points-info-button:hover {
+  background-color: #e2cd77;
 }
 
 .fade-in {
@@ -190,6 +301,25 @@
     flex-direction: column;
     gap: 25px;
   }
+
+  .points-info h1 {
+    font-size: 1.5rem;
+  }
+
+  .timeline-item-header .circle {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
+  .timeline-item-header h3 {
+    font-size: 1.2rem;
+  }
+
+  .timeline-item p {
+    font-size: 0.9rem;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -215,6 +345,24 @@
 
   .card-container {
     flex-wrap: wrap;
+  }
+
+  .points-info h1 {
+    font-size: 2rem;
+  }
+
+  .timeline-item-header .circle {
+    width: 50px;
+    height: 50px;
+    font-size: 1.3rem;
+  }
+
+  .timeline-item-header h3 {
+    font-size: 1.3rem;
+  }
+
+  .timeline-item p {
+    font-size: 1rem;
   }
 
 }

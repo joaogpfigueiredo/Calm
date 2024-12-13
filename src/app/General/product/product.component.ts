@@ -34,23 +34,23 @@ export class ProductComponent implements OnInit {
 
   private updatePlans() {
     this.planName = [
-      this.translate.instant(this.planType ? 'Prod.Monthly' : 'Prod.Normal'),
-      this.translate.instant(this.planType ? 'Prod.Quarterly' : 'Prod.Big'),
+      this.translate.instant(this.planType ? 'Prod.Quarterly' : 'Prod.Normal'),
+      this.translate.instant(this.planType ? 'Prod.SemiAnnual' : 'Prod.Big'),
       this.translate.instant(this.planType ? 'Prod.Annually' : 'Prod.Family')
     ];
 
     this.features1 = [
-      this.translate.instant(this.planType ? 'Prod.MonthlyFeature1' : 'Prod.NormalFeature1'),
-      this.translate.instant(this.planType ? 'Prod.MonthlyFeature2' : 'Prod.NormalFeature2'),
-      this.translate.instant(this.planType ? 'Prod.MonthlyFeature3' : 'Prod.NormalFeature3'),
-      this.translate.instant(this.planType ? 'Prod.MonthlyFeature4' : 'Prod.NormalFeature4')
+      this.translate.instant(this.planType ? 'Prod.QuarterlyFeature1' : 'Prod.NormalFeature1'),
+      this.translate.instant(this.planType ? 'Prod.QuarterlyFeature2' : 'Prod.NormalFeature2'),
+      this.translate.instant(this.planType ? 'Prod.QuarterlyFeature3' : 'Prod.NormalFeature3'),
+      this.translate.instant(this.planType ? 'Prod.QuarterlyFeature4' : 'Prod.NormalFeature4')
     ];
 
     this.features2 = [
-      this.translate.instant(this.planType ? 'Prod.QuarterlyFeature1' : 'Prod.BigFeature1'),
-      this.translate.instant(this.planType ? 'Prod.QuarterlyFeature2' : 'Prod.BigFeature2'),
-      this.translate.instant(this.planType ? 'Prod.QuarterlyFeature3' : 'Prod.BigFeature3'),
-      this.translate.instant(this.planType ? 'Prod.QuarterlyFeature4' : 'Prod.BigFeature4')
+      this.translate.instant(this.planType ? 'Prod.SemiAnnualFeature1' : 'Prod.BigFeature1'),
+      this.translate.instant(this.planType ? 'Prod.SemiAnnualFeature2' : 'Prod.BigFeature2'),
+      this.translate.instant(this.planType ? 'Prod.SemiAnnualFeature3' : 'Prod.BigFeature3'),
+      this.translate.instant(this.planType ? 'Prod.SemiAnnualFeature4' : 'Prod.BigFeature4')
     ];
 
     this.features3 = [

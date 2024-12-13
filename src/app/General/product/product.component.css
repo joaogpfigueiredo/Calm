@@ -116,11 +116,17 @@
     transform: scale(1.05);
   }
 
+  @media screen and (max-height: 768px) {
+    .product-container {
+      height: auto;
+    }
+  }
+
   @media screen and (min-width: 1024px) and (max-width: 1440px) {
     .product-container {
       height: auto;
     }
-    
+      
   }
 
   @media screen and (min-width: 768px) and (max-width: 1024px) {

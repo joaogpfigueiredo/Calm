@@ -37,3 +37,40 @@
   </div>
   <button routerLink="/product" class="subscribe-button fade-in">{{ 'Subscribe' | translate }}</button>
 </div>
+
+<div class="points-info">
+  <h1 class="fade-in">{{'PointSystem.PointSystem.' | translate}}</h1>
+  <div class="timeline">
+    <div class="timeline-item fade-in">
+
+      <div class="timeline-item-header">
+        <div class="circle">1</div>
+        <h3>{{ 'PointSystem.EarnPoints.' | translate}}</h3>
+      </div>
+
+      <p>{{ 'PointSystem.FirstDesc' | translate }}</p>
+
+    </div>
+    <div class="timeline-item fade-in">
+      
+      <p>{{ 'PointSystem.SecondDesc' | translate }}</p>
+      
+      <div class="timeline-item-header">
+        <h3>{{ 'PointSystem.RedeemPoints.' | translate }}</h3>
+        <div class="circle">2</div>
+      </div>
+      
+    </div>
+    <div class="timeline-item fade-in">
+      
+      <div class="timeline-item-header">
+        <div class="circle">3</div>
+        <h3>{{ 'PointSystem.GetBooks.' | translate }}</h3>
+      </div>
+
+      <p>{{ 'PointSystem.ThirdDesc' | translate }}</p>
+      
+    </div>
+  </div>
+  <button routerLink="/earnpoints" class="points-info-button fade-in">{{ 'EarnPoints' | translate }}</button>
+</div>

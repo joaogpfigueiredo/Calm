@@ -2,27 +2,29 @@
   "Home": "Home",
   "Product": "Product",
   "Signup": "Signup",
+
   "Products": "Products",
+
   "Read out of the box": "Read out of the box",
   "Read more, pay less": "Read more, pay less",
+
   "Get Books": "Get Books",
   "Sell Books": "Sell Books",
+
   "Start reading.": "Start reading.",
+
   "Find your perfect plan": "Find your perfect plan",
   "Choose a subscription that fits your needs.": "Choose a subscription that fits your needs.",
+
   "Choose your preferences": "Choose your preferences",
-  "Pick the genres and types of books you love.": "Pick the genres and types of books you love.",
+  "Pick the genres and types of books you love.": "Pick the genres and types of books you love or leave it to us.",
+
   "Receive your books": "Receive your books.",
-  "Get curated books delivered to your doorstep.": "Get curated books delivered to your doorstep.",
+  "Get curated books delivered to your doorstep.": "Get curated books to your doorstep.",
+
   "Subscribe": "Subscribe",
-  "Single Plan.": "Single Plan.",
-  "Single Plan": "Single Plan",
-  "Subscriptions.": "Subscriptions.",
-  "Subscriptions": "Subscriptions",
-  "Monthly": "Monthly",
-  "Quarterly": "Quarterly",
-  "Annually": "Annually",
-  "Big": "Big",
+
+  "EarnPoints": "How to Earn Points",
 
   "Footer": {
     "LegalNotice": "This website was created by students as part of a course – Management and Innovation Processes – during the 3rd year of the Computer Science Engineering program at the Faculty of Science and Technology, University of Coimbra (FCTUC), and FCTUC is not responsible for its use or content.",
@@ -75,41 +77,49 @@
 
   "Prod": {
     "Subscribe": "Subscribe",
-    "SinglePlanTitle": "Single Plan.",
+    "SinglePlanTitle": "Single Box.",
     "SubscriptionsTitle": "Subscriptions.",
-    "SinglePlan": "Single Plan",
+    
+    "SingleBox": "Single Box",
     "Subscriptions": "Subscriptions",
-    "Monthly": "Monthly",
+
     "Quarterly": "Quarterly",
+    "SemiAnnual": "Semi Annual",
     "Annually": "Annually",
+
     "Normal": "Normal",
     "Big": "Big",
     "Family": "Family",
-    "MonthlyFeature1": "2 books per month",
-    "MonthlyFeature2": "Choose 1 book genre",
-    "MonthlyFeature3": "Extra books",
-    "MonthlyFeature4": "Special editions",
-    "NormalFeature1": "Receive 2 books",
-    "NormalFeature2": "Choose 1 book genre",
-    "NormalFeature3": "Free delivery",
-    "NormalFeature4": "Access to a book club",
-    "QuarterlyFeature1": "2 books per month",
-    "QuarterlyFeature2": "Choose 4 book genres",
+
+    "QuarterlyFeature1": "Choose your box",
+    "QuarterlyFeature2": "Select your books genres",
     "QuarterlyFeature3": "Extra books",
     "QuarterlyFeature4": "Special editions",
+
+    "NormalFeature1": "Receive 2 books",
+    "NormalFeature2": "Select your books genres",
+    "NormalFeature3": "Free delivery",
+    "NormalFeature4": "Access to a book club",
+
+    "SemiAnnualFeature1": "Choose your box",
+    "SemiAnnualFeature2": "Select your books genres",
+    "SemiAnnualFeature3": "Extra books",
+    "SemiAnnualFeature4": "Special editions",
+
     "BigFeature1": "Receive 4/5 books",
-    "BigFeature2": "Choose 2 book genres",
+    "BigFeature2": "Select your books genres",
     "BigFeature3": "Free delivery",
     "BigFeature4": "Access to a book club",
-    "AnnuallyFeature1": "2 books per month",
-    "AnnuallyFeature2": "Choose 12 book genres",
+
+    "AnnuallyFeature1": "Choose your box",
+    "AnnuallyFeature2": "Select your books genres",
     "AnnuallyFeature3": "Extra books",
     "AnnuallyFeature4": "Special editions",
+
     "FamilyFeature1": "Receive 9/10 books",
-    "FamilyFeature2": "Choose 5 book genres",
+    "FamilyFeature2": "Select your books genres",
     "FamilyFeature3": "Free delivery",
-    "FamilyFeature4": "Access to a book club",
-    "EarnPoints": "How to Earn Points"
+    "FamilyFeature4": "Access to a book club"
   },
 
   "Exchange": {
@@ -119,11 +129,7 @@
       "Evaluate": "We evaluate them.",
       "TransferPoints": "We transfer you the points!"
     },
-    "PointsGuide": {
-      "Excellent": "In excellent condition: <br> 7.5 points",
-      "Good": "In good condition: <br> 6 points",
-      "Damaged": "Damaged: <br> 3 points"
-    }
+    "RedeemYourPoints": "Redeem your points"
   },
 
   "SignIn": {
@@ -171,30 +177,42 @@
         "BackButton": "Back to Home"
     },
 
-    "TermsConditions": {
-        "Title": "Terms and Conditions",
-        "Description": "Please read the terms and conditions before using our book mystery box services.",
-        "Section1": {
-            "Title": "Services Provided",
-            "Content": "We offer mystery book boxes with various subscription plans tailored to your preferences."
-        },
-        "Section2": {
-            "Title": "User Responsibilities",
-            "Content": "Users are responsible for providing accurate information and keeping payment details up to date."
-        },
-        "Section3": {
-            "Title": "Payment Policy",
-            "Content": "Payments are processed at the beginning of each subscription cycle and are non-refundable."
-        },
-        "Section4": {
-            "Title": "Cancellation Policy",
-            "Content": "You can cancel at any time, but refunds are not available for the current month."
-        },
-        "Section5": {
-            "Title": "Intellectual Property Rights",
-            "Content": "All website content, including text and images, is protected by copyright."
-        },
-        "BackButton": "Back to Home"
-    }
+  "TermsConditions": {
+      "Title": "Terms and Conditions",
+      "Description": "Please read the terms and conditions before using our book mystery box services.",
+      "Section1": {
+          "Title": "Services Provided",
+          "Content": "We offer mystery book boxes with various subscription plans tailored to your preferences."
+      },
+      "Section2": {
+          "Title": "User Responsibilities",
+          "Content": "Users are responsible for providing accurate information and keeping payment details up to date."
+      },
+      "Section3": {
+          "Title": "Payment Policy",
+          "Content": "Payments are processed at the beginning of each subscription cycle and are non-refundable."
+      },
+      "Section4": {
+          "Title": "Cancellation Policy",
+          "Content": "You can cancel at any time, but refunds are not available for the current month."
+      },
+      "Section5": {
+          "Title": "Intellectual Property Rights",
+          "Content": "All website content, including text and images, is protected by copyright."
+      },
+      "BackButton": "Back to Home"
+  },
+
+  "PointSystem": {
+    "PointSystem.": "Point System.",
+    "EarnPoints.": "Earn Points.",
+    "FirstDesc": "Trade your old books and earn points.",
+
+    "RedeemPoints.": "Redeem Points.",
+    "SecondDesc": "Use your points to get discounts on your next purchase.",
+
+    "GetBooks.": "Get Books.",
+    "ThirdDesc": "Get your mystery box with a lower price."
+  }
 
 }

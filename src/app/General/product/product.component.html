@@ -8,7 +8,7 @@
             <input type="checkbox" (change)="togglePlanType()">
             <span class="slider round"></span>
         </label>
-        <p>{{ planType ? ('Prod.Subscriptions' | translate) : ('Prod.SinglePlan' | translate) }}</p>
+        <p>{{ planType ? ('Prod.Subscriptions' | translate) : ('Prod.SingleBox' | translate) }}</p>
     </div>
 
     <div class="card-container">
@@ -26,5 +26,5 @@
         </plan-card>
     </div>
 
-    <button class="sell-button" routerLink="/earnpoints">{{ 'Prod.EarnPoints' | translate }}</button>
+    <button class="sell-button" routerLink="/earnpoints">{{ 'EarnPoints' | translate }}</button>
 </div>

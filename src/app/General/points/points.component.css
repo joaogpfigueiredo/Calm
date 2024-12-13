@@ -58,19 +58,29 @@ h1 {
   margin: 0 10px;
 }
 
-.points-guide {
-    background-color: #FFEB96;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
+.subscribe-button {
+    background-color: #f2dd87;
+    
+    border: none;
+    border-radius: 15px;
+  
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.65);
+  
     width: 250px;
-    height: 250px;
-}
-
-.points-guide p {
-    font-size: 1.3rem;
-    color: #333;
-}
+  
+    padding: 10px 20px;
+    margin-top: 15px;
+    
+    font-size: 1rem;
+    
+    cursor: pointer;
+    
+    transition: all 0.3s ease;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #e2cd77;
+  }
 
 @media screen and (max-width: 768px) {
 
@@ -90,16 +100,6 @@ h1 {
 
     .arrow {
         font-size: 1.5rem;
-    }
-
-    .points-guide {
-        width: 200px;
-        height: auto;
-        padding: 15px;
-    }
-
-    .points-guide p {
-        font-size: 1rem;
     }
 }
 
@@ -121,14 +121,6 @@ h1 {
         font-size: 3rem;
     }
 
-    .points-guide {
-        width: 220px;
-        height: 220px;
-    }
-
-    .points-guide p {
-        font-size: 1.1rem;
-    }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
@@ -148,14 +140,6 @@ h1 {
         font-size: 4rem;
     }
 
-    .points-guide {
-        width: 250px;
-        height: 250px;
-    }
-
-    .points-guide p {
-        font-size: 1.3rem;
-    }
 }
 
 @media screen and (max-height: 500px) {
